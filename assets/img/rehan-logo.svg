@@ -1,0 +1,26 @@
+<svg width="220" height="244" viewBox="0 0 220 244" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="26.5" y1="17.4" x2="199.8" y2="226.8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEB3B"/>
+      <stop offset="1" stop-color="#F9C708"/>
+    </linearGradient>
+    <linearGradient id="rGradient" x1="51" y1="46" x2="166" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4F0FF"/>
+      <stop offset="1" stop-color="#8FB2FF"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="220" height="244" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="12"/>
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feFlood flood-opacity="0.22"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M109.9 14c46.7 0 84.6-5.6 84.6 38.8v77.4c0 50.1-32.7 85.6-84.6 96.7-51.9-11.1-84.6-46.6-84.6-96.7V52.8C25.3 8.4 63.2 14 109.9 14Z" fill="url(#shieldGradient)" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M81 66h51.5c20.5 0 33.3 10.6 33.3 28.2 0 13.8-7.4 24-20.9 26.7l23.4 43.4c2.5 4.7-1 10.3-6.3 10.3h-26.6c-2.7 0-5.2-1.5-6.4-3.9l-19.1-38.8H116v38c0 3.9-3.1 7-7 7H81a7 7 0 0 1-7-7V73c0-3.9 3.1-7 7-7Zm35 38.2h14.7c7 0 10.8-3.3 10.8-8.7 0-5.5-3.8-8.7-10.8-8.7H116v17.4Z" fill="url(#rGradient)"/>
+  </g>
+  <path d="M57 213.4c20.5 14.3 35.8 19.3 52.9 19.3 17.1 0 32.4-5 52.9-19.4" stroke="#1E3A8A" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+
